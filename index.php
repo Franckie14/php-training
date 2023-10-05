@@ -34,6 +34,7 @@
             <?php
                 $firstname = "Michel";
                 $score = 327;
+                echo "<p>$firstname a obtenu  $score  points à cette partie.</p>";
             ?>
             </div>
         </section>
@@ -51,6 +52,7 @@
                 $priceProduct2 = 2.90;
                 $nameProduct3 = "potion";
                 $priceProduct3 = 5.20;
+                echo ""
             ?>
             </div>
         </section>
