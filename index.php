@@ -66,6 +66,12 @@
                 $quantityProduct1 = 1;
                 $quantityProduct2 = 10;
                 $quantityProduct3 = 4;
+                $priceAll = ($quantityProduct1 * $priceProduct1)  + ($quantityProduct2 * $priceProduct2) + ($quantityProduct3 * $priceProduct3);
+                $remise = $priceAll / 10;
+                $priceFinal = $priceAll - $remise;
+                echo "le prix total est de $priceAll .";
+                echo " la remise est de $remise" .;
+                echo " le prix final est de $priceFinal .";
             ?>
             </div>
         </section>
